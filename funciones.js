@@ -11,3 +11,16 @@ var funcion = function(nombre){
 }
 
 funcion("Alexandra");
+
+//scope depende donde se escribe la variable 
+//Scope Global
+//Scope Local
+
+var miNombre = "Diego";
+function nombre(){
+    var miApellido = "De Granda";
+    console.log(miNombre + " " + miApellido)
+}
+
+nombre();
+console.log(miNombre)
