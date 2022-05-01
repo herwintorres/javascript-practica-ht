@@ -24,3 +24,13 @@ function nombre(){
 
 nombre();
 console.log(miNombre)
+
+//operadores 
+var suma = 3 +2; //suma
+var resta = 3 - 10; //resta
+var multi = 3 * 10; //multiplicación
+var divi = 10 / 2; //división
+
+var concatenar = "nombre" + " " + "apellido"; //concatenación
+var negacion = true
+console.log(!negacion)
