@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    background: papayawhip;
+    justify-content: center;/*para centrar horizontal justify-content: center - espacio entre los elementos - justify-content:space-between*/
+    align-items: center; /*Centrar de forma vertical*/
+    flex-direction: column; /*alinear vertical*/
+    height: 500px;
+}
+
+.item{
+    width: 30px;
+    height: 30px;
+    background: blue;
+}
+
+.container .item:nth-child(2n + 1){
+    background: cyan;
+}

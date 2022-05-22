@@ -2,15 +2,15 @@
     display:inline;
 }
 section{
-    /* float: left; */
+    float: left;
 }
 article{
-    /* float: right; */
+    float: right;
 }
 p{
-    /* width: 300px;
+    width: 300px;
     height: 60px;
     background: blue;
-    margin: 10px; */
-    /*display: inline-block;*/
+    margin: 10px;
+    /* display: inline-block; */
 }
