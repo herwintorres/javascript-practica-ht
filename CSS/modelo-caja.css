@@ -1,0 +1,9 @@
+div{
+    width: 20px;
+    height: 20;
+    background: papayawhip;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 40px;/*colapza las marcenes se solapan de forma vertical*/
+}
